@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+/* css 样式重置 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, form,fieldset,input,textarea,p,blockquote,th,td { padding: 0; margin: 0; } 
+table { border-collapse: collapse; border-spacing: 0; } 
+fieldset,img { border: 0; } 
+address,caption,cite,code,dfn,em,strong,th,var { font-weight:normal;font-style: normal; } 
+ol,ul { list-style: none; } 
+caption,th { text-align: left; } 
+h1,h2,h3,h4,h5,h6 { font-weight: normal; font-size: 100%; } 
+q:before,q:after { content:""; } 
+abbr,acronym { border: 0; }
+img{vertical-align: top; }
+a{ text-decoration: none; }
+
+/* ------------- 从这里开始，删除。（此段在word文档里已经添加过了） ------------- */
+
+/* ------------- 删除，到这里结束。（此段在word文档里已经添加过了） ------------- */
+
+/* c-form表单基本样式 通用 */
+a:link,a:visited{color:#6b6b6b;}
+a:hover{text-decoration:underline;}
+.c-form{margin-top:24px;font-size:14px;}
+.c-form-mt0{margin-top:0px;}
+.c-form-mt10{margin-top:10px;}
+.c-form dt{float:left;width:95px;height:36px;margin-right:15px;text-align:right;line-height:36px;color:#000;}
+.c-form dd{float:left;color:#666;}
+.red-star{font-family:"?";font-size:16px;color:#d70e0e;}
+.c-input-a{float:left;width:268px;height:24px;padding:5px;margin-right:10px;line-height:24px;color:#666;border:1px solid #acabab;border-radius:3px;outline:none;}
+.c-input-a:focus{box-shadow:0 0 8px 0 #dcdcdc;}
+.c-input-error{border-color:#d70e0e;background-color:#fff4e8;}
+.c-form-tip{float:left;display:none;height:30px;padding:0 15px;margin-top:2px;font-size:12px;line-height:30px;color:#c95656;border-radius:5px;border:1px solid #f09fa7;background-color:#feece8;}
+.c-dd-c{display:block;_padding-top:8px;}
+/* 向工采网询价 */
+.enquiry-form{width:580px;padding:15px 0 80px 0;margin:0 auto;}
+.page-title{float:left;height:40px;padding:0 0 0 20px;margin:25px 0 0 -20px;font-family:"microsoft yahei";font-size:30px;color:#666;line-height:40px;border-left:1px solid #b3b3b3;}
+.page-tips{float:right;margin-top:67px;font-size:14px;color:#888;}
+.red-bold:link,.red-bold:visited{font-weight:bold;color:#e82d2c;}
+.inquiry-page .c-box-a{margin-top:-10px;}
+.c-box-a{border:1px solid #f1f1f1;border-top:2px solid #e82d2c;overflow:hidden;}
+.multi-line{width:368px;height:84px;}
+.ef-input-code{width:98px;border-radius:0;}
+.ef-input{float:left;width:98px;height:36px;padding:0;margin-right:10px;}
+.change-code{float:left;height:36px;padding-left:25px;margin-right:15px;line-height:36px;background:url(/statics/front/img/icon-1.1.gif) 0 -364px no-repeat;}
+.ef-submit{width:121px;height:34px;font-family:"microsoft yahei";font-size:16px;font-weight:bold;color:#fff;border:1px solid #d20000;*border:0;border-radius:2px;background:url(/statics/front/img/repeat-bg.png) 0 0 repeat-x;cursor:pointer;outline:none;}
+/* 阴影框 */
+.is-box-shadow{width:673px;margin:0 auto;}
+.is-bs-t{height:20px;background:url(/statics/front/img/is-box-shadow.png) 0 0 no-repeat;}
+.is-bs-m{background:url(/statics/front/img/is-box-shadow.png) -1346px 0 repeat-y;}
+.is-bs-b{height:20px;background:url(/statics/front/img/is-box-shadow.png) -673px 0 no-repeat;}
+/* 询盘发送成功 */
+.inquiry-succeed-page .page-footer{margin-top:25px;}
+.inquiry-succeed{padding:25px 0 0;}
+.is-tip-box{padding:45px 0;font:normal normal 24px/32px "microsoft yahei";color:#2f2f2f;text-align:center;}
+.icon-2-00{display:inline-block;*display:inline;*zoom:1;width:33px;height:32px;margin-right:10px;vertical-align:top;background:url(/statics/front/img/icon-1.2.gif) 0 0 no-repeat;}
+.is-tip-01{margin:0 0 20px;color:#db4647;}
+.is-tip-account{width:430px;margin:15px auto 0;font-size:14px;line-height:36px;}
+.indent2{text-indent:2em;}
+.azure-blue:link,.azure-blue:visited{color:#125a96;}
+.is-btn{height:36px;margin-top:30px;}
+.is-ta-index,.is-ta-login{float:left;width:121px;height:34px;font:normal 16px/34px "microsoft yahei";text-align:center;border-radius:3px;background-image:url(/statics/front/img/repeat-bg.png);background-repeat:repeat-x;}
+.is-ta-index:link,.is-ta-index:visited{margin-right:80px;background-position:0 -68px;border:1px solid #a9a9a9;color:#2b2b2b;}
+.is-ta-login:link,.is-ta-login:visited{background-position:0 0;border:1px solid #d20000;color:#fff;}
+.is-recommend{margin-top:50px;}
+.is-recommend .title{font-size:16px;}
+/* 会员注册 */
+.vip-register-form{width:580px;padding:15px 0 50px 0;margin:0 auto;}
+.vip-register-form .c-form,.enquiry-form .c-form{width:130%;}
+.vip-register-form .c-form dt{width:100px;}
+.read-terms{margin-top:10px;}
+.read-terms dd{height:36px;font-size:12px;line-height:36px;}
+.vip-r-rt{width:13px;height:13px;padding:0;margin:-1px 5px 0 0;vertical-align:middle;}
+.c-dd-checkbox{float:left;height:36px;margin-right:10px;line-height:36px;}
+.c-dd-checkbox input[type=checkbox]{margin:-2px 5px 0 0;vertical-align:middle;}
+/* 会员注册成功 */
+.vip-register-succeed-page .page-footer{margin-top:100px;}
+.vip-register-succeed .is-tip-box{padding:65px 0 60px;}
+.vip-register-succeed{margin-top:50px;}
+.vip-register-succeed .is-btn{width:326px;margin:45px auto 0;text-align:center;}
+/* 询盘篮 */
+.inquiry-basket .page-footer{margin-top:55px;}
+.inquiry-basket .position{margin-top:20px;font-size:14px;color:#888;}
+.layout-name-intro{margin-top:15px;}
+.lni-hd{height:36px;line-height:36px;border-bottom:2px solid #aaa;}
+.lni-title{float:left;padding:0 24px 0 0;font-size:16px;font-weight:bold;color:#000;border-bottom:2px solid #e82d2c;}
+.lni-bd{padding:10px 10px;line-height:22px;background-color:#fff3d5;}
+.lni-bd dt{float:left;height:100%;}
+.lni-bd dd{float:left;width:83%;color:#555;}
+.lni-content{padding-top:10px;}
+.inquiry-product-list{width:100%;}
+.inquiry-product-list th{height:36px;font-size:14px;font-weight:bold;}
+.inquiry-product-list td{padding:15px 0;border-top:1px solid #f1f1f1;}
+th.col01,td.col01{width:105px;padding-left:40px;}
+th.col03,td.col03{width:20%;}
+th.col04,td.col04{width:70px;padding-right:40px;text-align:center;color:#3c3c3c;}
+th.col02{padding-left:115px;}
+th.col03,th.col04{text-align:center;}
+td.col02{padding:20px 0 20px 20px;font-size:14px;line-height:22px;vertical-align:top;}
+.ipl-photo-box{display:block;width:103px;height:103px;border:1px solid #ccc;}
+.ipl-photo-box img{width:100%;height:100%;}
+.ipl-delete:link,.ipl-delete:visited{color:#3c3c3c;}
+.control-num{width:102px;height:22px;margin:0 auto;text-align:center;line-height:20px;position:relative;}
+.cn-cut,.cn-add{position:absolute;left:0;top:0;width:16px;height:20px;border:1px solid #cacbcb;cursor:pointer;}
+.cn-add{left:auto;right:0;}
+.cn-number{position:absolute;left:18px;top:0;width:66px;height:20px;text-align:center;border:0;border-top:1px solid #cacbcb;border-bottom:1px solid #cacbcb;outline:none;}
+.ipl-btn{height:55px;padding:25px 30px 0 0;text-align:right;border-top:1px solid #f1f1f1;background-color:#f4f4f4;}
+.ipl-btn a{display:inline-block;font:normal 16px/34px "microsoft yahei";text-align:center;border-radius:2px;background:url(/statics/front/img/repeat-bg.png) 0 0 repeat-x;}
+.cn-current{color:#ff6803;border-color:#ff6803;background-color:#f4f4f4;}
+a.ipl-back{width:121px;margin-right:15px;color:#333;border:1px solid #a9a9a9;background-position:0 -68px;}
+a.ipl-inquiry{width:141px;color:#fff;border:1px solid #f26500;background-position:0 -34px;}
+a.ipl-back:hover{color:#333;}
+a.ipl-inquiry:hover{color:#fff;}
+input.ipl-inquiry{cursor:pointer;width:141px;font:normal 16px/34px "microsoft yahei";color:#fff;text-align:center;border-radius:2px;height:36px;line-height:36px;border:1px solid #f26500;background:url(/statics/front/img/repeat-bg.png) 0 -34px repeat-x;}
+/* 密码重置成功 */
+.rest-password-page .rpg-tips-content{padding:45px 0 150px;}
+.rpg-tips-content a.is-ta-login{margin-right:80px;}
+.rpg-tips-content a.is-ta-index{margin:0;}
+.rpg-tips-content .is-btn{width:326px;margin:50px auto 0;}
+.rest-password-page .c-box-a{margin-top:-10px;}
+.rpg-tc-title01{text-align:center;font:normal 24px/32px "microsoft yahei";color:#db4647;}
+/* 重置密码邮件发送 */
+.rpg-tc-title02{text-align:center;font-size:14px;line-height:27px;color:#666;}
+.icon-2-01{width:34px;height:27px;background-position:0 -33px;}
+/* 重置密码 */
+.rest-password-form{width:500px;padding:60px 0 90px;margin:0 auto;}
+.rest-password-form .c-form,.forget-password-form .c-form{width:130%;}
+.rest-password-form .c-form dt{width:120px;}
+/* 忘记密码 */
+.forget-password-form{width:600px;padding:20px 0 50px;margin:0 auto;}
+.fpf-tips{margin-top:55px;}
+/* 会员中心 */
+.vip-center-content{}
+.vip-center-content .position{margin-top:20px;font-size:14px;}
+.vcc-content{margin-top:15px;position:relative;}
+.vip-side-bar{position:absolute;left:0;top:0;}
+.vsb-list{width:188px;font-size:14px;line-height:32px;border:1px solid #bcbcbc;border-top:0;}
+.vsb-l-li{height:32px;vertical-align:top;border-top:1px solid #bcbcbc;}
+.vsb-l-link{display:block;text-indent:18px;}
+.vsb-l-link:link,.vsb-l-link:visited{color:#000;}
+.vsb-l-link:hover{color:#cc0000;}
+.vsb-l-link.current{font-weight:bold;color:#fff !important;background-color:#e82d2c;}
+.vip-exit-login{text-indent:40px;background:url(/statics/front/img/icon-1.2.gif) 0 -60px no-repeat;}
+.vcc-right{min-height:300px;_height:300px;margin-left:210px;overflow:hidden;}
+.vip-c-hd{height:24px;line-height:24px;}
+.vip-sub-title{float:left;font-size:14px;font-weight:bold;color:#000;}
+.my-profile,.mp-my-inquiry{margin:30px 0 0 50px;}
+.my-profile .vip-sub-title{margin-right:200px;}
+.vip-change-profile{margin-right:28px;}
+.mp-list{margin-top:20px;font-size:12px;line-height:30px;}
+.mp-l-laber{display:inline-block;width:5em;text-align:right;}
+
+.mp-my-inquiry{max-width:710px;_width:710px;}
+.mmi-content{margin-top:18px;}
+.my-inquiry-table{width:100%;border:1px solid #e0e0e0;text-align:center;}
+.my-inquiry-table th{height:40px;font-weight:bold;text-align:center;background:#f3f3f3;border:1px solid #e0e0e0;}
+.my-inquiry-table td{padding:7px 0;border:1px solid #e0e0e0;}
+.mit-col01{width:99px;}
+.mit-col02{width:auto;}
+.mit-col03{width:70px;}
+.mit-col04{width:99px;}
+th.mit-col02{text-align:left;text-indent:45px;}
+td.mit-col02{text-align:left;}
+.mit-product{}
+.mit-product li{padding:7px 0 7px 20px;line-height:32px;}
+.mit-product img{width:32px;height:32px;margin-right:10px;vertical-align:middle;}
+.mit-col03 .mit-product li{padding:7px 0;}
+.mit-product a:link,.mit-product a:visited{color:#333;}
+.mit-product a:hover{color:#d70e0e;}
+.mit-red{color:#d70e0e !important;}
+.see-all-inquiry{margin-top:18px;text-align:right;}
+/* 会员中心 密码修改成功 */
+.vcc-right .is-box-shadow{margin:0 0 0 50px;}
+.vcc-right .is-tip-box{padding:65px 0;color:#666;}
+/* 会员中心 我的询盘 */
+.mid-content{margin:30px 0 0 50px;}
+.mid-c-list{width:60%;margin:0 auto;font-size:12px;line-height:30px;}
+.mid-c-list li{overflow:hidden;}
+.mid-cl-name{float:left;width:5em;margin-right:15px;text-align:right;}
+.mid-cl-content{float:left;}
+/* 会员中心 我的资料 */
+.mp-form .vip-register-form{padding:30px 50px 0 0;}
+.mp-f-link{margin-left:70px;}
+/* 会员登录 */
+.vlp-container{padding:40px 0 40px 58%;background:url(/statics/front/img/vlp-container.jpg) 10% 60px no-repeat;}
+.vlp-c-content{width:313px;height:283px;border:1px solid #e8e8e8;border-top:2px solid #8a8a8a;background-color:#fff;}
+.vlp-c-hd{height:40px;line-height:40px;background-color:#f8f8f8;}
+.vlp-c-hd h2{float:left;font-family:"microsoft yahei";font-size:18px;color:#414141;text-indent:30px;}
+.vlp-form{width:263px;margin:0 auto;}
+.vlp-form li{margin-top:24px;background-color:#fff;}
+.login-accounts{width:261px;height:38px;position:relative;border:1px solid #bdbdbd;}
+.name-label,.password-label{float:left;width:38px;height:38px;border-right:1px solid #bdbdbd;background-image:url(/statics/front/img/icon-1.2.gif);background-repeat:no-repeat;}
+.name-label{background-position:0 -88px;}
+.password-label{background-position:0 -126px;}
+.login-name,.login-password{float:left;position:relative;z-index:1;width:202px;height:28px;padding:5px 10px;font-size:14px;line-height:28px;color:#333;border:0;background:transparent;outline:none;}
+.button-type-a{width:121px;height: 34px;font: normal 16px/34px "microsoft yahei";text-align: center;color:#fff;border:1px solid #d20000;border-radius:3px;background:url(/statics/front/img/repeat-bg.png) 0 0 repeat-x;outline:none;cursor:pointer;}
+.login-submit{width:261px;}
+.login-links{}
+.login-placeholder{position:absolute;left:49px;height:40px;font-size:14px;line-height:40px;color:#999;}
+.login-tips{position:absolute;left:38px;bottom:-24px;width:212px;height:22px;padding-left:10px;line-height:22px;color:#cc0000;display:none;background-color:#fff4e8;border:1px solid #d70e0e;}
+
+/* 媒体查询 */
+
+@media (max-width:855px){
+	.vlp-container{padding:40px 0 40px 50%;}
+}
+@media (min-width:970px) and (max-width:1220px){
+	.mid-c-list{width:70%;}
+}
+@media (max-width:970px){
+	.mid-content{margin-left:0;}
+	.mid-c-list{width:90%;}
+}
+
+
+
+/* 产品详情页1.1版 样式调整 */
+  .proimg{padding-bottom:70px;overflow:hidden;}
+  .preview,.thumbs{width:350px !important;}
+  .info{float:none !important;width:405px !important;min-height:245px;_height:245px;}
+  .info li{margin:15px 0 0 !important;}
+  .jqzoom{width:348px !important;height:348px !important;border:1px solid #e0e0e0;}
+  .zoomPad{float:none;}
+  .zoomPad img{width:100%;height:100%;}
+  .thumbs{clear:left;float:left;}
+  .share{left:auto !important;right:0 !important;bottom:0 !important;}
+  .bdsharebuttonbox{float:right;}
+  .w-box-hd2{border-top:1px solid #C9C9C9;}
+/* 添加购物篮 */
+  .add-to-basket{width:365px;height:185px;padding:20px 20px 0;background:#f7f7f7;overflow:hidden;}
+  .add-to-basket dt{float:left;width:70px;font-size:14px;color:#626061;text-align:right;}
+  .add-to-basket dd{float:left;}
+  .atb-dl-01{height:22px;line-height:22px;}
+  .atb-dl-02,.atb-dl-03{margin-top:15px;line-height:26px;}
+  .pdf-01,.pdf-02,.pdf-03{float:left;width:19px;height:23px;margin-right:10px;background-image:url(/statics/front/img/icon-1.1.gif);background-repeat:no-repeat;}
+  .pdf-01{background-position:0 -288px;}
+  .pdf-02{background-position:-20px -288px;}
+  .pdf-03{background-position:-40px -288px;}
+  .atb-add,.atb-cut{float:left;width:26px;height:26px;margin-right:2px;background-image:url(/statics/front/img/icon-1.1.gif);background-repeat:no-repeat;cursor:pointer;}
+  .atb-add{background-position:0 -311px;}
+  .atb-cut{background-position:0 -337px;}
+  .atb-add-min{background-position:-26px -311px;cursor:text;}
+  .atb-add-max{background-position:-26px -337px;cursor:text;}
+  .atb-input{float:left;width:68px;height:24px;margin-right:2px;}
+  .atb-input input.product_num{width:56px;height:24px;padding:0 5px;text-align:center;color:#333;border:1px solid #ccc;outline:none;}
+  .atb-btn{margin-top:25px;font-family:"microsoft yahei";color:#fff;}
+  .atb-enquiry,.atb-join-enquiries{float:left;height:34px;font-size:16px;line-height:34px;text-align:center;background-image:url(/statics/front/img/repeat-bg.png);background-repeat:repeat-x;border-radius:2px;}
+  .atb-enquiry{width:121px;margin-right:15px;background-position:0 0;}
+  .atb-join-enquiries{width:141px;background-position:0 -34px;}
+  .atb-btn a:hover{color:#fff;text-decoration:none;}
+/* 咨询在线客服 fixed */
+html{_text-overflow:ellipsis;}
+.fixed-service{position:fixed;right:0;top:50%;margin-top:-133px;font-family:"microsoft yahei";z-index:999;_position:absolute;}
+.fs-btn{float:right;width:31px;padding:10px 6px 10px 6px;margin:70px 0 0 20px;font-size:16px;text-align:center;line-height:20px;color:#dfeff9;border-radius:4px 0 0 4px;background-color:#0081cd;cursor:pointer;}
+.fs-btn-icon{display:inline-block;*display:inline;*zoom:1;width:31px;height:27px;background:url(/statics/front/img/icon-1.1.gif) -52px -311px no-repeat;}
+.fs-msg{float:left;display:none;width:156px;height:266px;background:url(/statics/front/img/fs-msg.jpg) center no-repeat;position:relative;}
+.fs-msg-close{position:absolute;right:0;top:0;width:20px;height:20px;cursor:pointer;}
+.fs-msg-list{margin:144px 0 0 12px;font-family:"microsoft yahei";}
+.fs-msg-list dt{width:122px;height:25px;font-size:14px;text-align:center;line-height:25px;color:#fff;}
+.fs-msg-list dd{height:20px;margin:6px 0 14px;font-size:14px;line-height:20px;text-indent:15px;color:#509dd3;text-shadow:0 0 3px #fff;}
+.fs-msg-list a:link,.fs-msg-list a:visited{color:#fff;text-decoration:underline;}
+.fs-msg-list a:hover{}
+/* 服务条款 */
+.terms-conditions{font-size:14px;color:#333;}
+.tc-title{font:bold 20px/100% "microsoft yahei";color:#bb0000;}
+.mt15{margin-top:15px;}
+.tc-dl dt{margin-top:10px;font-weight:bold;}
+.retract2{text-indent:2em;}
+.tc-subtitle{margin-top:20px;font:bold 16px/100% "宋体";}
+
+#main .prodetails .prodesc h1,
+#main .prodetails .prodesc h2,
+#main .prodetails .prodesc h3,
+#main .prodetails .prodesc h4,
+#main .prodetails .prodesc h5,
+#main .prodetails .prodesc h6{
+    font-weight: 700;
+}
+#main .prodetails .prodesc strong{ font-weight: 700;}

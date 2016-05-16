@@ -1,0 +1,15 @@
+@charset "utf-8";
+/*
+ * create by shuai in 2016-5-16
+ */
+.navfix{
+	position:fixed;
+	top: 0;
+	left:50%;
+	_left:0;
+	margin-left:-600px;
+	_position:absolute;
+	_top:expression(eval(document.documentElement.scrollTop));
+	z-index:999;
+}
+
