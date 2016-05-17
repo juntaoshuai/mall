@@ -1195,7 +1195,7 @@ textarea[contenteditable] {
   font-weight: bold;
 }
 #main .position strong {
-  color: #000;
+  color: #bf0008;
   /*font-weight: normal;*/
 }
 #main .position .highlight {
@@ -1237,7 +1237,7 @@ textarea[contenteditable] {
   cursor: pointer;
   vertical-align: middle;
 }
-#main .proshow-bd {
+#main .prolist {
   margin: 12px -20px 0 0;
   /*background: #eee;*/
   *margin-bottom: 40px;
@@ -2259,3 +2259,140 @@ html.sourcing-service #main .w-form .header p i {
 .ph-purchase:hover{color:#fff;}
 .pf-copyright{padding:20px 0 30px;margin-top:40px;font-family:"宋体";font-size:12px;color:#888;border-top:1px solid #e1e1e1;}
 .pf-copyright a{margin-right:25px;}
+
+/*index page by shuai 2016-5-17*/
+
+/*index layout*/
+
+.index-fly-l {
+  width: 232px;
+}
+.index-fly-mr {
+  width: 946px;
+}
+
+
+
+/*index nav*/
+#indexNav {
+  height:38px;
+  font-size: 16px;
+  line-height:38px;
+  border-bottom: 2px solid #bf0008;
+  
+}
+
+/*#nav ul,*/
+#indexNav li{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  _display: inline;
+  _zoom: 1;
+}
+#indexNav li a {
+  position: relative;
+  display: block;
+  /*width: 120px;*/
+  margin: 0 15px;
+  padding: 0 5px;
+  text-align: center;
+  color: #303030;
+}
+#indexNav li a.first {
+  margin: 0;
+  padding: 0 0 0 11px;
+  width: 221px;
+  text-align: left;
+  *margin-right: 15px;
+  background: #bf0008;
+  color:#fff;
+}
+#indexNav li a.first:hover{
+	color:#fff;
+}
+#indexNav li a:hover {
+	color:#bf0008;
+  text-decoration: none;
+}
+#indexNav li a.on {
+  background: #bf0008;
+}
+
+.index-fly-l{width:232px; background: #c81623; font-family: simsun;color:#fff;}
+.indexcat-box{position:relative;}
+.indexcatlist{padding: 10px 7px 2px 10px;}
+.indexcatlist a:link,.indexcatlist a:visited{color:#fff;}
+.indexcatlist dt{position: relative; height: 22px; line-height: 22px;margin-bottom:10px;}
+.indexcatlist dt h3{font-size: 14px;font-weight: bold;}
+.indexcatlist dt i{position: absolute;right:5px;top:2px;}
+.indexcatlist dd{border-bottom: 1px solid #dd2727; overflow: hidden;*zoom:1;padding-bottom: 15px;margin-bottom:11px;}
+.indexcatlist .secondcat{margin-right: -6px;*overflow: hidden;*zoom:1; }
+.indexcatlist dd p{font-size: 12px; line-height: 22px;float: left;margin-right: 6px;width:67px;}
+.indexcatlist dd p a{ display: block;width:67px; height: 22px;overflow: hidden;}
+.indexcatlist .all-cat{text-align: center; line-height: 30px;}
+.indexcat-box .allcatlist{ }
+/*index hot pro*/
+.index-hot-proshow{border: 1px solid #ededed; position: relative;margin-top:4px;}
+
+ .index-hot-proshow .index-prolist {
+  margin:0;
+  *margin-bottom: 40px;
+  _margin-bottom: 0;
+  font-family: simsun;
+  border-bottom: 1px solid #ededed;
+}
+ .index-hot-proshow .index-prolist .prolist-item {
+  float: left;
+  margin: 0 14px 0 0;
+  width: 225px;
+  height: 285px;
+  position: relative;
+}
+
+ .index-hot-proshow .prolist-item .wrap {
+  /*padding: 12px 15px;
+  background: #fff;*/
+  width:225px;
+  height: 285px;
+  
+}
+ .index-hot-proshow .prolist-item .wrap.active{
+ 	border:1px solid #bf0008;
+  position: absolute;
+  z-index: 1;
+  left:-1px;
+  top:-1px;
+ }
+ .index-hot-proshow .prolist-item .thumb {
+  display: block;
+  /*width: 200px;*/
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+}
+ .index-hot-proshow .prolist-item .title {
+  margin: 5px 0 5px 33px;
+  height: 66px;
+  line-height: 22px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #000;
+  width:156px;
+  _height: 66px;
+  border-right: 1px solid #ededed;
+  padding-right:37px;
+  
+}
+ .index-hot-proshow  .prolist-item .title a {
+  color: #000;
+}
+ .index-hot-proshow .prolist-item .title a:hover {
+  color: #bf0008;
+  text-decoration: none;
+}
+.hot-title{font:bold 20px/52px "微软雅黑";color:#bf0008;}
+
+
+
+

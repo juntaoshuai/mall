@@ -1,5 +1,5 @@
 $(function(){
-	var navfix=(function(){
+/*	var navfix=(function(){
 	  var $mainfl=$("#main .w-fly-l"),
 	  	  top=0;
 	  if($mainfl.length){
@@ -35,28 +35,29 @@ $(function(){
 	
 	
 	})();
+	*/
 	
 	
-	/*
-* @media (min-width: 1220px)
-.wrapper {
-  width: 1200px;
-}
-@media (min-width: 968px)
-.wrapper {
-  width: 948px;
-}
+	
+	
+ $(".index-prolist .prolist-item").hover(function(){
+ 	$(this).find(".wrap").addClass("active");
+ 	
+ },function(){
+ 	$(this).find(".wrap").removeClass("active");
+ 	
+ });
+	
+ var indexInit=(function(){
+    
+    $(".index-prolist:last").css("border-bottom","none");
+	$(".index-prolist").find(".title:last").css("border-right","none");
+    $(".index-prolist").find(".prolist-item:last").css("margin-right",0);	 	
+    
+ })();
+	
+	
 
-@media (max-width: 967px)
-.wrapper {
-  width: 90%;
-  min-width: 696px;
-}
-  * 
- */
-	
-	
-	
 	
 	
 });
