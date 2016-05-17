@@ -50,9 +50,11 @@ $(function(){
 	
  var indexInit=(function(){
     
-    $(".index-prolist:last").css("border-bottom","none");
+    $(".index-hot-proshow .index-prolist:last").css("border-bottom","none");
 	$(".index-prolist").find(".title:last").css("border-right","none");
-    $(".index-prolist").find(".prolist-item:last").css("margin-right",0);	 	
+  $(".index-prolist").find(".prolist-item:last").css("margin-right",0);	 	
+  $(".floor-prolist li:nth-child(5n)").css("width","238px").find(".wrap").css("width","238px");  
+    
     
  })();
 	
